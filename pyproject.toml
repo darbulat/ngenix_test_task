@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ngenix_test_task"
+version = "0.1.0"
+description = ""
+authors = ["daribazaronbg <b.daribazaron@innopolis.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+pytest = "^7.3.1"
+mypy = "^1.2.0"
+pytest-cov = "^4.0.0"
+flake8 = "^6.0.0"
+
+[tool.isort]
+profile = "black"
